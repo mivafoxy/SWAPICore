@@ -25,6 +25,8 @@ public final class SWAPIService: SWAPIServiceProtocol {
     private let baseUrl = "https://swapi.dev/api/"
     private let session = URLSession.shared
         
+    public init() {}
+    
     public func fetchItemsPage<T: Decodable & ListModelProtocol>(
         pageNumber: Int,
         sectionName: String
