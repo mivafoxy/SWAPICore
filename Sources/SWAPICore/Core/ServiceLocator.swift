@@ -7,6 +7,8 @@
 
 import Foundation
 
+// Создать ServiceLocator(SOA)/MVVM(вложенные вьюмодели)/Flux(вложенные сторы)/MobX(контейнер-медиатор)
+
 public protocol ServiceLocating {
     func getService<T>() -> T?
 }
