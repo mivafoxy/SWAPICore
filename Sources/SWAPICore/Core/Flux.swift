@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// Создать ServiceLocator(SOA)/MVVM(вложенные вьюмодели)/Flux(вложенные сторы)/MobX(контейнер-медиатор)
+
 // MARK: - Action
 public protocol FluxAction {}
 
